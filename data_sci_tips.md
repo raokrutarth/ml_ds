@@ -69,3 +69,12 @@ https://towardsdatascience.com/music-genre-classification-with-python-c714d032f0
 
 https://towardsdatascience.com/the-cold-start-problem-how-to-build-your-machine-learning-portfolio-6718b4ae83e9
 https://medium.com/@rchang/getting-better-at-machine-learning-16b4dd913a1f
+
+## Deep Learning Visualizations
+
+http://playground.tensorflow.org/
+https://research.google.com/bigpicture/
+
+## Basic neural networks using keras
+
+https://github.com/keras-team/keras/tree/master/examples

@@ -23,6 +23,11 @@ class ShallowNet:
 
             In (784) -> L1 (64 N, sigmoid, dense) -> Out (10)
 
+        Note
+            - A dense layer is one where the output
+                of EACH neuron goes as input to every neuron
+                in the next layre.
+
     '''
     def __init__(self):
         np.random.seed(42)
@@ -79,12 +84,7 @@ class ShallowNet:
 
     def make_model(self):
         '''
-            Make model with 1 dense layer. The output
-            of EACH neuron goes as input to every neuron
-            in the next layre.
-
-            784 inputs -> layer 1 (sigmoid, 64 neurons)
-            layer 1 -> output layre (softmax, 10 classes/buckets)
+            Define layers
         '''
         model = Sequential()
         layer_1_neurons = 64

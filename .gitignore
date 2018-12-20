@@ -1,2 +1,3 @@
 data/wikipedia/
 .vscode/
+__pycache__/mnist_preprocess.cpython-35.pyc
