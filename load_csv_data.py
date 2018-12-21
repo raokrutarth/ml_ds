@@ -7,8 +7,10 @@ import csv
 import numpy
 from urllib.request import urlopen
 
-# loading using csv reader
+
 filename = 'data/pima-indians-diabetes.csv'
+
+# loading using csv reader
 in_file = open(filename, 'rt') # rt reads data as ascii
 reader = csv.reader(in_file, delimiter=',', quoting=csv.QUOTE_NONE)
 x = list(reader)

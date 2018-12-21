@@ -26,7 +26,7 @@ class OxfordFlowersAlexNet:
             - When transitioning from a convolutional layer to a dense layer, a
                 flattening layer is needed in between.
             - Using 2D strides in the max pooling layers
-            - s
+            - Tensorbord loss, accuracy and network visualization
     '''
     def __init__(self):
         np.random.seed(42)

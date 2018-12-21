@@ -20,7 +20,7 @@ class MNISTDeepNet:
             A dense neural network to classify MNIST digits. MNIST dataset is a set
             of 28x28 pixel images that contain images of handwritten numbers.
 
-            Develop a neural network to recognize the number in the image.
+            Develop a basic deep neural network to recognize the number in the image.
 
         Network
 
