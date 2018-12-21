@@ -14,7 +14,7 @@ class MINSTData:
     '''
     def __init__(self):
         np.random.seed(42)
-        (x_train, y_train), (x_test, y_test) = mnist.load_data()
+        (x_train, y_train), (x_test, y_test) = mnist.load_data(path='./data/mnist.npz')
         self.train_data = Data(x_train, y_train)
         self.test_data = Data(x_test, y_test)
         self.num_test, self.num_train, self.image_width, self.image_height = (

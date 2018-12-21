@@ -1,3 +1,6 @@
 data/wikipedia/
 .vscode/
-__pycache__/mnist_preprocess.cpython-35.pyc
+__pycache__/
+data/17flowers/
+data/tf_logs/
+.DS_Store

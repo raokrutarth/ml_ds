@@ -75,6 +75,14 @@ https://medium.com/@rchang/getting-better-at-machine-learning-16b4dd913a1f
 http://playground.tensorflow.org/
 https://research.google.com/bigpicture/
 
-## Basic neural networks using keras
+## Basic neural networks using Keras
 
 https://github.com/keras-team/keras/tree/master/examples
+
+## Building an image classifier with Keras
+
+https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
+
+## Prediction with trained Keras Neural Net
+
+https://machinelearningmastery.com/how-to-make-classification-and-regression-predictions-for-deep-learning-models-in-keras/
