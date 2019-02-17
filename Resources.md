@@ -6,19 +6,18 @@ https://medium.com/@rchang/a-beginners-guide-to-data-engineering-part-i-4227c5c4
 
 # Online/Take-home challenge go-to shortcuts to have
 
-    - A function that plots all the variables against the label
-        (this will already give you some insights to talk about!).
-    - A function that bins continuous variables into classes.
-    - A function to extract info from dates.
-    - A function building the ROC curve and optimizing the cutoff point.
-    - A function to cross-validate.
-    - A function that returns partial dependence plots for the top random forest variables.
-    - A function that builds a decision tree and automatically extracts the top 3/4 splits.
+- A function that plots all the variables against the label.
+- A function that bins continuous variables into classes.
+- A function to extract info from dates.
+- A function building the ROC curve and optimizing the cutoff point.
+- A function to cross-validate.
+- A function that returns partial dependence plots for the top random forest variables.
+- A function that builds a decision tree and automatically extracts the top 3/4 splits.
 
 # Sample questions
 
-    - Given some scraped AirBnB data and was told to predict house prices based on accommodation features.
-    - Given a dataset with no labels and was told to build the best ML model I could (so had to do stuff like identifying categorical features, dummy coding them, and making choices about imputing missing values in the various cases).
+- Given some scraped AirBnB data and was told to predict house prices based on accommodation features.
+- Given a dataset with no labels and was told to build the best ML model I could (so had to do stuff like identifying categorical features, dummy coding them, and making choices about imputing missing values in the various cases).
 
 In both cases they spent relatively little time interrogating the code. It seemed to be used more like "Do you know how to analyse a dataset and build an ML model in a fairly tidy way?
 
